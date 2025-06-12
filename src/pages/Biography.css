@@ -1,0 +1,58 @@
+.biography-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  min-height: 100vh;
+  animation-duration: 1.5s;
+}
+
+.bio-profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.bio-description {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.bio-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-left: 5px solid #0077cc;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.bio-section h2 {
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background-color: #e3f2fd;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+}

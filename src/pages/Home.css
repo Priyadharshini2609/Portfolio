@@ -1,0 +1,56 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  animation: slideIn 1s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.home-profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #4caf50;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.home-profile:hover {
+  transform: scale(1.05);
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.highlight {
+  color: #4caf50;
+}
+
+.home-tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.home-intro {
+  font-size: 1rem;
+  color: #444;
+  max-width: 600px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

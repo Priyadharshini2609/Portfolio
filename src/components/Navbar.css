@@ -1,0 +1,13 @@
+.navbar {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-left: 220px; /* adjust based on sidebar width */
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
