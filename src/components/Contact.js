@@ -10,7 +10,7 @@ function Contact() {
         <div className="contact-info animated-fade">
           <p><strong>Email:</strong> rpriya26092004@email.com</p>
           <p><strong>Phone:</strong> +91-8778758742</p>
-          <p><strong>Location:</strong> Tamil Nadu, India</p>
+          <p><strong>Location:</strong> chennai,Tamil Nadu, India</p>
             <p><strong>LinkedIn:</strong>  https://www.linkedin.com/in/priyadharshini--a52549251priyadharshini-softwaredeveloper-java</p>
         </div>
 

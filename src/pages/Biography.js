@@ -28,14 +28,14 @@ function Biography() {
       </div>
 
       <div className="bio-section">
-        <h2>🛠️ Skills</h2>
+        <h2>🛠️ Technical Skills</h2>
         <ul className="skills-list">
-          <li>React</li>
-          <li>JavaScript</li>
-          <li>HTML5 & CSS3</li>
-          <li>Java</li>
-          <li>Spring Boot</li>
-          <li>MySQL</li>
+          <li>Frontend  :HTML, CSS, JavaScript</li>
+          <li>Backend  : Java, Python</li>
+          <li>Database  : MYSQL,MongoDb</li>
+          <li>Tools: Git-hub,VScode</li>
+          <li>Microsoft: Word, Excel, powerpoint</li>
+          <li> canva, Power BI</li>
         </ul>
       </div>
 

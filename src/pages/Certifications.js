@@ -4,23 +4,29 @@ import './Certifications.css';
 function Certifications() {
   const certs = [
     {
-      title: "React Developer Certificate",
-      issuer: "Coursera",
-      date: "March 2025",
-      desc: "Completed a comprehensive course on React.js including hooks, routing, and state management."
+      title: "Basics of HTML,CSS",
+      issuer: "OpenWeaver",
+      date: "3 May 2023",
+      desc: "Completed a comprehensive course on HTML,CSS from OpenWeaver."
     },
     {
-      title: "Java Full Stack Development",
+      title: "Probability for Datascience",
       issuer: "Great Learning",
-      date: "January 2025",
-      desc: "Built full-stack apps using Java, Spring Boot, and MySQL with REST APIs."
+      date: "5 April 2023",
+      desc: "Enhanced probability of data science concepts."
     },
     {
-      title: "Frontend Development Bootcamp",
-      issuer: "Udemy",
-      date: "November 2024",
-      desc: "Covered HTML, CSS, JavaScript and responsive web design."
-    }
+      title: "Advanced python",
+      issuer: "Simplilearn",
+      date: "19 Feburary 2025",
+      desc: "Covered advanced Python concepts."
+    },
+    {
+      title: "Frontend Development ",
+      issuer: "Simplilearn",
+      date: "23 January 2025",
+      desc: "finished front-end development course."
+    },
   ];
 
   return (
